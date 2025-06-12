@@ -1,9 +1,3 @@
-# Data Structures and Algorithms
-
-This repository contains explanations and examples of fundamental concepts in data structures and algorithms, with descriptions in both English and Khmer.
-
----
-
 ## What are Data Structures and Algorithms?
 
 - **Data Structures** (រចនាសម្ព័ន្ធទិន្នន័យ):  
@@ -29,26 +23,26 @@ This repository contains explanations and examples of fundamental concepts in da
 
 ## Key Concepts
 
-### 1. Time Complexity (រយៈពេល)
+### 1. Time Complexity 
 A measure of how long an algorithm takes to run as input size grows.
 - **Khmer:** Time complexity គឺជារង្វាស់នៃរយៈពេលដែល Algorithm ត្រូវការដើម្បីដោះស្រាយបញ្ហា។  
 - **Example:**  
   - Linear Search: O(n), checks each element once.
 
-### 2. Space Complexity (ការប្រើប្រាស់ memory)
+### 2. Space Complexity 
 A measure of how much extra memory an algorithm uses.
 - **Khmer:** Space complexity គឺជារង្វាស់នៃ memory ដែល Algorithm បានប្រើ។  
 - **Example:**  
   - An algorithm that uses a new array of size n has O(n) space complexity.
 
-### 3. Big O Notation (សញ្ញា Big O)
+### 3. Big O Notation 
 A mathematical notation to describe the upper bound of an algorithm's running time or space requirements as the input size grows.
 - **Khmer:** Big O Notation គឺជា សញ្ញាណគណិតវិទ្យាដែលបង្ហាញអំពីដែនកំណត់នៃអនុគមន៍។  
 - **Example:**  
   - Bubble Sort: O(n²)  
   - Binary Search: O(log n)
 
-### 4. Recursion (ការហៅខ្លួនឯង)
+### 4. Recursion
 A programming technique where a function calls itself to solve smaller subproblems.
 - **Khmer:** Recursion គឺជាបច្ចេកទេស programming នៅពេលដែល functions ហៅខ្លួនឯងមកប្រើ។  
 - **Example:**  
@@ -59,15 +53,15 @@ A programming technique where a function calls itself to solve smaller subproble
       return n * factorial(n - 1)
   ```
 
-### 5. Divide and Conquer (បំបែក និងជោគជ័យ)
+### 5. Divide and Conquer
 A strategy to solve complex problems by breaking them down into smaller, simpler subproblems, solving each recursively, and combining the results.
-- **Khmer:** Divide និង Conquer គឺជាវិធីសាស្រ្តក្នុងការដោះស្រាយបញ្ហាដោយបំបែកវាទៅជាផ្នែកតូចៗ។  
+- **Khmer:** Divide និង Conquer គឺជាវិធីសាស្រ្តក្នុងការដោះស្រាយបញ្ហាដោយបំបែកវាទៅជាផ្នែកតូចៗ លធ្វើអោយយើងងាយស្រួលគ្រប់គ្រងនិង ដោះស្រាយបញ្ហា និង Recursion ត្រូវបានហើយប្រើប្រាស់ជាញឹកញាប់នៅពេលដែលប្រើប្រាស់វិធីសាស្រ្តមួយនេះក្នុង Algorithm 
 - **Example:**  
   - Merge Sort, Quick Sort
 
 ### 6. Brute Force (ល្បិចសាមញ្ញ)
 A straightforward approach that tries all possible solutions and picks the best one.
-- **Khmer:** Brute Force គឺជាវិធីសាមញ្ញមួយ ដោយ algorithms សាកល្បងគ្រប់ដំណោះស្រាយទាំងអស់។  
+- **Khmer:** Brute Force គឺជាវិធីសាមញ្ញមួយ ដោយ algorithms ធ្វើការសាកល្តងគ្រប់ដំណោះស្រាយទាំងអស់ដែលអាចទៅរួច បន្ទាប់មកជ្រើសរើសជម្រើសល្អបំផុតមកប្រើ
 - **Example:**  
   - Checking every possible password combination.
 
